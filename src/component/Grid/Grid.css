@@ -1,0 +1,15 @@
+.a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:black;
+    height: 513px;
+}
+
+    
+.grid{
+    text-align: center;
+
+   margin:64px 35px 50px 35px;
+    height: 420px;
+    background-color:grey;
+}

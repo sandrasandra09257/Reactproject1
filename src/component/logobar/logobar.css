@@ -1,0 +1,20 @@
+.logobar{
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: black;
+     height: 100px;
+     
+     height:130px;
+    
+}
+.logobar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:68px;
+}
+.logobar5{
+    margin:68px;
+}

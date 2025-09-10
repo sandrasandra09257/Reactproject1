@@ -13,3 +13,19 @@
     height: 420px;
     background-color:grey;
 }
+.grid1{
+    padding-top: 42px;
+}
+.grid2{
+    padding-top: 20px;
+    font-size: 27px;
+    line-height: 42px;
+    font-weight: 600px;
+    color:#FFFFFF;
+}
+.grid3{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400px;
+    padding-top: 10px;
+}

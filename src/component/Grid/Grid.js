@@ -26,7 +26,7 @@ function Grid() {
       {
         Grid.map((i) =>(
           <div className="grid">
-        <div className="grid1"><img src={i.GridImage} /></div>
+        <div className="grid1"><img src={i.GridImage} alt='GridImage'/></div>
        <div className="grid2">{i.gridtitle}</div>
         <div className="grid3">This is a template sigma file,turned into code using anima.learn  more at AnimaApp.com</div>
      </div>

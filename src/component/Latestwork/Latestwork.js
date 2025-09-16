@@ -41,7 +41,7 @@ function Latestwork() {
 {
     Latestwork.map((i) =>(
       
-        <div className="item1"><img src={i.ItemImage} />
+        <div className="item1"><img src={i.ItemImage} alt='ItemImage'/>
         <div className="i1">{i.ItemTitle}</div>
         </div>
        

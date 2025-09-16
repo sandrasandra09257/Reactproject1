@@ -6,15 +6,15 @@ import {NavLink} from 'react-router-dom'
 function Header() {
   let navitems=[{id:1,
     name:"about",
-    value:'/About'},{
+    value:'/about'},{
       id:2,
       name:"work",
-      value:'/Work',
+      value:'/work',
     },
     {
       id:3,
       name:"contact",
-      value:'/Contact'
+      value:'/contact'
 
   },
 ];
@@ -37,7 +37,7 @@ function Header() {
 {/*     
     <div className="about">ABOUT</div>
     <div className="work">WORK</div>
-    <div className="">CONTACT</div>
+    <div className="Cont1">CONTACT</div>
     </div>
     </div>
     </div> */}

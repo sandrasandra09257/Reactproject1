@@ -33,7 +33,7 @@ function Testimonial() {
         <div className="test2">
             {
                 Testimonial.map((i)=>(
-                    <div className=""><img src= {i.TestImage}/></div>
+                    <div className=""><img src= {i.TestImage} alt='TestImage'/></div>
                 ))
             }
            {/* <div className=""><img src="images\Testimonial Card.png" /></div>

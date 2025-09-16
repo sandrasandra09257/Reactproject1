@@ -17,7 +17,7 @@ function Contact() {
             
               <>
                <div className="cont2"><img src={ContactImage1}/></div>
-     <div className="cont3"><img src={ContactImage2}/></div> 
+     <div className="cont3"><img src={ContactImage2} alt='ContactImage'/></div> 
      </>
              
           

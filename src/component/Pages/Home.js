@@ -5,7 +5,8 @@ import Grid from '../Grid/Grid'
 import Latestwork from '../Latestwork/Latestwork'
 import Testimonial from '../Testimonial/Testimonial'
 import Contact from '../contact/Contact'
-import ContactModal from '../../contactModal/contactModal'
+import ContactModal from '../../contactModal/ContactModal'
+
 function Home() {
   const [modal,setmodal]=useState(false)
   return (

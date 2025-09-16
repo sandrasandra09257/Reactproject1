@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
-import './ContactModal.css'
+import './ContactModals.css'
 
 
-function ContactModal({setmodal}) {
+function ContactModals({setmodal}) {
   
   return (
        <div>
@@ -30,4 +30,4 @@ function ContactModal({setmodal}) {
   )
 }
 
-export default ContactModal
+export default ContactModals

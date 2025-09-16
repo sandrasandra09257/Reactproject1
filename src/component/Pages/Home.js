@@ -4,14 +4,14 @@ import Logobar from '../logobar/logobar'
 import Grid from '../Grid/Grid'
 import Latestwork from '../Latestwork/Latestwork'
 import Testimonial from '../Testimonial/Testimonial'
-import Contact from '../contact/Contact'
-import ContactModal from '../../contactModal/contactModal'
+import Contact from '../Contacts/Contact'
+import ContactModals from '../ContactModals/ContactModals'
 
 function Home() {
   const [modal,setmodal]=useState(false)
   return (
     <div className='home-page'>
-      {modal &&<ContactModal setmodal={setmodal}  />}
+      {modal &&<ContactModals setmodal={setmodal}  />}
       <Banner setmodal={setmodal}/>
        <Logobar />
   <Grid />

@@ -29,7 +29,7 @@ let logobar=[{
 {
   logobar.map((i)=>(
      <div className="logobar1">
-      <img src={i.logobarImage} alt='logobar'/></div>
+      <img src={i.logobarImage} alt='logobarImage'/></div>
 
   ))
 }

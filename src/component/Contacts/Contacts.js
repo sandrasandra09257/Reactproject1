@@ -1,10 +1,10 @@
 import React from 'react'
-import './Contact.css'
+import './Contacts.css'
 import ContactImage1 from '../../assets/images/Lets work together.png'
 import ContactImage2 from '../../assets/images/Contact Section Content.png'
 
-function Contact() {
-    let Contact=[{
+function Contacts() {
+    let Contacts=[{
         ContactImage:ContactImage1
     },
     {
@@ -33,4 +33,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contacts

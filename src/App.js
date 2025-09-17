@@ -11,6 +11,7 @@ import Home from './component/Pages/Home';
 import About from './component/Pages/About';
 import Work from './component/Pages/Work';
 import Cont from './component/Pages/Cont';
+import Contacts from './component/Contacts/Contacts';
 
 
 function App() {

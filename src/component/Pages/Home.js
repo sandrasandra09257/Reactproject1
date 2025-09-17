@@ -4,7 +4,7 @@ import Logobar from '../logobar/logobar'
 import Grid from '../Grid/Grid'
 import Latestwork from '../Latestwork/Latestwork'
 import Testimonial from '../Testimonial/Testimonial'
-import Contact from '../Contacts/Contact'
+import Contacts from '../Contacts/Contacts'
 import ContactModals from '../ContactModals/ContactModals'
 
 function Home() {
@@ -18,7 +18,7 @@ function Home() {
   <Latestwork />
   <Testimonial />
 
-  <Contact />
+  <Contacts />
     </div>
   )
 }

@@ -7,14 +7,14 @@ function Cont() {
   const EmailRef=useRef()
   const phonenumberRef=useRef()
   const MessageRef=useRef()
-  function onSubmit(){
-    const formData={
-      name:nameRef.current.value,
-      Email:EmailRef.current.value,
-      phonenumber:phonenumberRef.current.value,
-      Message:MessageRef.current.value
-    }
-  }
+  // function onSubmit(){
+  //   const formData={
+  //     name:nameRef.current.value,
+  //     Email:EmailRef.current.value,
+  //     phonenumber:phonenumberRef.current.value,
+  //     Message:MessageRef.current.value
+  //   }
+  // }
   const closeButton=()=>{
      setvisible(false)
   }
@@ -29,7 +29,7 @@ function Cont() {
       <div className='form-cont'>
       
       
-      <form onSubmit={onSubmit}>
+      <form onSubmit>
         <h2 className='form-heading'>Contact Form</h2>
         <input className='input-field' type='text' id='name' name='name' placeholder='name' ref={nameRef}/>
         <input className='input-field' type='text' id='Email' name='email' placeholder='Email' ref={EmailRef} />

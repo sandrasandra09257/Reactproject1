@@ -1,17 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './component/header/header';
-import Banner from './component/banner/banner';
-import Logobar from './component/logobar/logobar';
-import Grid from './component/Grid/Grid';
-import Latestwork from './component/Latestwork/Latestwork';
-import Testimonial from './component/Testimonial/Testimonial';
+
 import { BrowserRouter, Routes,Route, Navigate } from 'react-router-dom';
 import Home from './component/Pages/Home';
 import About from './component/Pages/About';
 import Work from './component/Pages/Work';
 import Cont from './component/Pages/Cont';
-import Contacts from './component/Contacts/Contacts';
+
 
 
 function App() {

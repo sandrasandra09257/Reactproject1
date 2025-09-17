@@ -4,7 +4,7 @@ import ContactImage1 from '../../assets/images/Lets work together.png'
 import ContactImage2 from '../../assets/images/Contact Section Content.png'
 
 function Contacts() {
-    let Contacts=[{
+    let Contact=[{
         ContactImage:ContactImage1
     },
     {
